@@ -74,7 +74,7 @@ def main():
         x="yardline_100", y="fraction_of_plays_at_yardline",
         color="drive_end_transition"
     )
-    fig.write_html("2019-2023.html")
+    fig.write_html("docs/2019-2023.html")
     grouped_data.to_csv("2019-2023.csv")
 
     raw_data = get_data([2009, 2010, 2011, 2012, 2013])
@@ -85,7 +85,7 @@ def main():
         x="yardline_100", y="fraction_of_plays_at_yardline",
         color="drive_end_transition"
     )
-    fig.write_html("2009-2013.html")
+    fig.write_html("docs/2009-2013.html")
     grouped_data.to_csv("2009-2013.csv")
 
 
